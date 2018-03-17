@@ -7,5 +7,9 @@ public class TestGIT {
 	public TestGIT(String parameter) {
 		this.gitFromScratch=parameter;
 	}
+	
+	public String toString(){
+		return this.gitFromScratch;
+	}
 
 }
